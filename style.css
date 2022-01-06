@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+p{
+    font-size: 14px;
+}
+
+h1 , h4 {
+    margin: 12px;
+    color: orangered;
+}
+
+/* start Navbar */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+    background-color: white;
+    box-shadow: 0 0 7px grey;
+    
+    
+}
+
+nav .left  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav .left ul li  {
+    display: inline;
+    margin-left: 28px;
+    
+}
+nav .left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav .right  a {
+    background-color: orangered;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+/* End Navbar */
+
+/* Start Container */
+
+.container {
+    display: flex;
+    box-sizing: border-box;
+    
+    
+    
+}
+.container .section {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 12px;
+    
+    
+}
+/* Start Section left */
+
+
+
+.container .left .cardProfil  {
+    width: 300px;
+    padding: 12px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 3px gray;
+    
+    
+}
+
+.cardProfil .skills-profil ul li {
+    display: inline;
+    padding: 16px;
+    font-weight: 700;
+    
+    
+}
+ .container .section .left .cardProfil img {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 12px;
+    
+}
+
+.container .section .left .cardProfil table {
+    width: 100%;
+    border: 2px solid orangered;
+}
+.cardProfil table  th {
+    color: white;
+    background-color: orangered;
+}
+
+/* End Section left */
+
+/* Start Section right Start */
+
+.container .section .right {
+    
+    box-sizing: border-box;
+
+}
+.container .section .right .skillContainer{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    padding: 10px;
+    
+    box-sizing: border-box;
+    
+
+}
+.container .section .right .skillContainer .cardSkill{
+    
+    
+    padding: 10px;
+    background-color: white;
+    justify-content: center;
+    margin: 0 8px;
+    border-radius: 8px;
+    box-shadow: 0 0 3px gray;
+}
+
+
+.container .section .right .skillContainer .cardSkill img{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.socialMedia {
+    width: 100%;
+}
+
+.socialMedia img {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+}
+/* End Section right  */
+
+/* End Container */
+
+/* Effect css */
+.cardSkill:hover{
+    /* /* -webkit-transform: scale(1);
+    transform: scale(1.5);
+    transition: 0.3s; */
+    cursor: pointer;
+    border: 2px solid orangered;
+}
+.socialMedia a img:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: 0.3s;
+    
+}
+
+.right a:hover {
+    background-color: rgb(218, 218, 218);
+} 
+nav  .left ul li a.link-active {
+    color: orangered;
+    font-weight: 800;
+}
+
+
+@media (min-width: 600px){
+    body{
+        font-size: 14px;
+        
+    }
+    nav {
+        height: 7vh;
+        padding: 0;
+        margin: 0;
+    }
+    .container{
+        height: 93vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        
+    }
+    .container .section {
+        width: 85%;
+        display: flex;
+
+        
+        
+        
+        
+    }
+
+    
+    .section .left {
+        flex: 30%;
+    }
+    .section .right {
+        flex: 70%;
+    }
+}
+
+

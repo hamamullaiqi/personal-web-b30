@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="contact.css">
+        <title>Contact Form</title>
+    </head>
+    <body>
+        <!-- Start Navbar -->
+        <nav>
+            <div class="left">
+                <a href="index.html"><img src="assets/logo.png" alt="logo"></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blogs</a></li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <a href="contact.html" class="link-active">Contact Me</a>
+            </div>
+
+        </nav>
+        <!-- End Navbar -->
+        <div class="form-container">
+        <div class="cardForm">
+            <h1>Contact Us</h1>
+            <form >
+                <div>
+                    <label for="input-name" >Name</label>
+                    <input id="input-name" type="text" >
+                </div>
+
+                <div>
+                    <label for="input-email">Email</label>
+                    <input id="input-email" type="email">
+                </div>
+
+                <div>
+                    <label for="input-phoneNumber">Phone Number</label>
+                    <input id="input-phoneNumber" type="number">
+                </div>
+                <div class="checkbox" >
+                    
+                    <input type="checkbox" name="skillsCheckbox[]" id="input-checkbox1"  class="checkbox" value="Web development">
+                    <label for="input-checkbox1">Web development</label>
+                    <p><input type="checkbox" name="skillsCheckbox[]" id="input-checkbox2"  class="checkbox" value="Mobile development">
+                    <label for="input-checkbox2">Mobile development</label>
+                    
+            
+            </div>
+
+                <div>
+                    <label for="input-subject">Subject</label>
+                    <select id="input-subject">
+                        <option value="">Select Here</option>
+                        <option>I am hiring</option>
+                        <option>Privacy Police</option>
+                        <option >Problem With Our Site </option>
+                        <option >Lest Collaborate </option>
+
+                    </select>
+                </div>
+
+                <div>
+                    <label for="input-massage">Your Massage</label>
+                    <textarea id="input-massage" cols="30" rows="3"  ></textarea>
+                </div>
+                
+                <div>
+                    <button type="button" onclick="submitData()">Submit</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+        <!-- script -->
+        <script src="form.js"></script>
+    </body>
+</html>
