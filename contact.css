@@ -17,7 +17,7 @@ body {
 
 nav {
     display: flex;
-    height: 7vh;
+    
     justify-content: space-around;
     align-items: center;
     padding: 8px;
