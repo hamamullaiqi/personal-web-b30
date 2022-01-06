@@ -55,11 +55,7 @@ nav .right  a {
 /* End Navbar */
 
 
-.form-container {
-    display: flex;
-    
-    
-}
+
 
 .cardForm {
     width: max-content;
@@ -134,8 +130,5 @@ nav .right .link-active:hover {
     .form-container {
         height: 93vh;
     }
-    form {
-        width: 300px; 
-        height: auto;
-    }
+    
 }
