@@ -56,7 +56,6 @@ nav .right  a {
 
 
 
-
 .cardForm {
     width: max-content;
     margin: 12px auto;
@@ -129,13 +128,6 @@ nav .right .link-active:hover {
     }
     .form-container {
         height: 93vh;
-    }
-
-    .form-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 8px;
     }
     
 }
