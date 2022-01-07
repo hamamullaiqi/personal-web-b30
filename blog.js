@@ -202,7 +202,9 @@ let distanceSeconds = Math.floor(distance / (milisecond))
   setInterval (() => {
     // console.log("heloo");
     renderBlogs();
-  }, 60000)
+
+  }, 5000)
+
 
 
 
